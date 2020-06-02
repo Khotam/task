@@ -1,0 +1,35 @@
+.sidebar {
+  width: 30%;
+  background-color: rgb(8, 8, 165);
+  color: #fff;
+  overflow: auto;
+  position: relative;
+}
+
+.sidebarTop {
+  position: sticky;
+  background-color: rgb(8, 8, 165);
+  top: 0;
+  left: 0;
+  z-index: 11;
+  padding: 1rem;
+  min-width: 250px;
+  width: 100%;
+  min-height: 12vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}

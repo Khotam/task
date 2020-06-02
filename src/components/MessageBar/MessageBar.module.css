@@ -1,0 +1,35 @@
+.messageBar {
+  width: 100%;
+  min-height: 10%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.attach,
+.send {
+  font-size: 30px;
+}
+
+.inputField {
+  width: 100%;
+  display: block;
+  margin: 0 0.75rem;
+  padding: 0.5rem 0.75rem 0 0.75rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: #252525;
+  caret-color: red;
+}
+
+.inputField:focus {
+  outline: none;
+  border: none;
+}
